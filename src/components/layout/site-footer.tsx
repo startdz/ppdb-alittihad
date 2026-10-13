@@ -33,6 +33,7 @@ export function SiteFooter() {
         </nav>
         <div>
           <h2 className="text-lg font-semibold">Kontak</h2>
+          <p>Email:islamicschoolalittihad@gmail.com</p>
           <address className="mt-3 flex flex-col gap-2 text-base text-muted-foreground not-italic">
             <span>{siteConfig.address}</span>
             <a
