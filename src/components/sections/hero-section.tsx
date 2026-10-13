@@ -38,11 +38,17 @@ export function HeroSection() {
           >
             Daftarkan putra-putri Anda di {siteConfig.name}
           </h1>
-          <p className="max-w-xl text-lg text-muted-foreground">
-            Sistem Penerimaan Murid Baru (SPMB) {siteConfig.fullName} tahun
-            pelajaran {siteConfig.academicYear} dibuka {schedule.opens}{" "}
-            {schedule.closes}.
-          </p>
+          <div className="max-w-xl space-y-3">
+            <h1 className="text-base font-bold tracking-tight">
+              Sekolah yang Mendampingi Tumbuh Kembang Anak Dalam Akademik,
+              Ibadah, dan Al-Qur&apos;an.
+            </h1>
+            <p className="text-lg text-muted-foreground">
+              Sistem Penerimaan Murid Baru (SPMB) {siteConfig.fullName} tahun
+              pelajaran {siteConfig.academicYear} dibuka {schedule.opens}{" "}
+              {schedule.closes}.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center gap-3">
             <RegisterButton size="lg" />
             <a
