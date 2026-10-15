@@ -25,10 +25,13 @@ export const siteConfig = {
   whatsappNumber: "+6281230124224", // null as string | null,
 
   /** SATU-SATUNYA tempat URL Google Form. Ganti nilai placeholder dengan URL resmi (https://...). */
+  // registrationFormUrl: REGISTRATION_FORM_PLACEHOLDER as string,
   registrationFormUrl:
     "https://docs.google.com/forms/d/e/1FAIpQLSd25wmn6-2oU1S7HumfeyolPbC4QPFjmnCEvIxoWPDFoUnbow/viewform",
-  // registrationFormUrl: REGISTRATION_FORM_PLACEHOLDER as string,
 } as const;
+
+/** Link navigasi ini tidak menuju section, melainkan membuka dialog brosur (BrochureDialog). */
+export const BROCHURE_HREF = "#lihat-brosur";
 
 export const navItems: NavItem[] = [
   { label: "Informasi", href: "#informasi" },
@@ -36,6 +39,7 @@ export const navItems: NavItem[] = [
   { label: "Alur", href: "#alur" },
   { label: "FAQ", href: "#faq" },
   { label: "Kontak", href: "#kontak" },
+  { label: "Lihat Brosur", href: BROCHURE_HREF }, // trigger dialog brosur
 ];
 
 /** URL formulir yang valid, atau null bila masih placeholder / bukan https. */

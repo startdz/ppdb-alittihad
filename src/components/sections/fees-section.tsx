@@ -32,9 +32,10 @@ export function FeesSection() {
             </p>
             <CostBar items={fees} className="mt-6" />
             <p className="mt-3 text-sm text-muted-foreground">
-              Panjang tiap warna menunjukkan porsi komponen terhadap jumlah.{" "}
+              Panjang tiap warna menunjukkan porsi komponen terhadap jumlah.
+              {/* {" "}
               {largest.label} adalah komponen terbesar ({largestShare}% dari
-              jumlah).
+              jumlah). */}
             </p>
           </div>
           <table className="w-full text-base">

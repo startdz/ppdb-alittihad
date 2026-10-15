@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 
+import { BrochureDialog } from "@/components/brochure-dialog";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { MotionProvider } from "@/components/motion-provider";
@@ -58,6 +59,7 @@ export default function RootLayout({
           <SiteHeader />
           {children}
           <SiteFooter />
+          <BrochureDialog />
         </MotionProvider>
       </body>
     </html>
