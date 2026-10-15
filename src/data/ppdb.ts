@@ -30,10 +30,10 @@ export const fees: FeeItem[] = [
   },
   { id: "mpls", label: "MPLS", amount: 150_000, color: "#f7d58a" },
   { id: "observasi", label: "Observasi", amount: 250_000, color: "#9ad1c3" },
-  { id: "seragam", label: "Seragam", amount: 1_350_000, color: "#5db3a0" },
+  { id: "seragam", label: "Seragam", amount: 1_500_000, color: "#5db3a0" },
   { id: "bangunan", label: "Bangunan", amount: 3_500_000, color: "#0f6a58" },
   { id: "fasilitas", label: "Fasilitas", amount: 1_000_000, color: "#3f8f9c" },
-  { id: "spp-juli", label: "SPP Juli", amount: 420_000, color: "#12302b" },
+  { id: "spp-juli", label: "SPP Juli", amount: 450_000, color: "#12302b" },
 ];
 
 /** Jumlah di sheet: Rp 7.000.000. Dihitung dari komponen agar selalu konsisten. */
