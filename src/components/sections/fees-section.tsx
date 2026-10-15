@@ -5,10 +5,10 @@ import { fees, feeTotal } from "@/data/ppdb";
 import { formatRupiah } from "@/lib/format";
 
 export function FeesSection() {
-  const largest = fees.reduce((max, fee) =>
-    fee.amount > max.amount ? fee : max,
-  );
-  const largestShare = Math.round((largest.amount / feeTotal) * 100);
+  // const largest = fees.reduce((max, fee) =>
+  //   fee.amount > max.amount ? fee : max,
+  // );
+  // const largestShare = Math.round((largest.amount / feeTotal) * 100);
 
   return (
     <section
