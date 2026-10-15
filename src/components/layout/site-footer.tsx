@@ -56,7 +56,7 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="w-fit hover:text-foreground hover:underline"
               >
-                WhatsApp panitia
+                WhatsApp Panitia
               </a>
             ) : null}
           </address>

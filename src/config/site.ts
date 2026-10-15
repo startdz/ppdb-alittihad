@@ -22,7 +22,7 @@ export const siteConfig = {
    * Nomor telepon di spreadsheet belum terverifikasi sebagai nomor WhatsApp,
    * jadi tombol WhatsApp baru muncul setelah nilai ini diisi.
    */
-  whatsappNumber: null as string | null,
+  whatsappNumber: "+6281230124224", // null as string | null,
 
   /** SATU-SATUNYA tempat URL Google Form. Ganti nilai placeholder dengan URL resmi (https://...). */
   registrationFormUrl:
